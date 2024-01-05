@@ -20,7 +20,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: 리액트 빌드
-        run: |
+        run:
           npm install
           npm run build
 
