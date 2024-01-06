@@ -20,13 +20,7 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: 리액트 빌드
-        run: |
+        run: 
           npm install
-          npm run build
           ls
-
-      - name: 현재 디렉토리 확인
-        run: |
-          ls
-          cd build
-          pwd
+          
