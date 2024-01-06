@@ -22,5 +22,6 @@ jobs:
       - name: 리액트 빌드
         run: 
           npm install
+          npm run build
           ls
           
